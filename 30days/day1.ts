@@ -1,10 +1,16 @@
-// hello World
-function processData(inputString: String) {
-	// This line of code prints the first line of output
-	console.log('Hello, World.');
-	console.log(inputString);
+// data Types
+function main() {
+	var i = 4;
+	var d = 4.0;
+	var s = 'HackerRank ';
+	const int = Number(readLine()) || 10;
+	const double = Number(readLine()) || 10.5;
+	const str = readLine() || 'Hello';
 
-	// Write the second line of output that prints the contents of 'inputString' here.
+	const sumFl = d + double;
+	console.log(i + int);
+	console.log(sumFl.toFixed(1));
+	console.log(s + str);
 }
 
-processData('Diener');
+main();
