@@ -1,0 +1,30 @@
+body {
+	width: 33%;
+}
+#res {
+	background-color: lightgray;
+	height: 48px;
+	border: solid;
+}
+#btns {
+	width: 25%;
+	height: 36px;
+	font-size: 18px;
+	margin: 0px;
+	float: left;
+}
+.btn-number {
+	background-color: lightgreen;
+	color: brown;
+}
+
+#btnClr,
+#btnEql {
+	color: white;
+	background-color: darkgreen;
+}
+
+.btn-operation {
+	background-color: black;
+	color: red;
+}
