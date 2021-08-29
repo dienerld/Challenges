@@ -1,8 +1,8 @@
 function main() {
 	const n: number = parseInt(readLine());
-	let phoneList: any = {};
+	const phoneList: any = {};
 	for (let i = 0; i < n; i++) {
-		const stringNumber: string[] = readLine().split(' ');
+		const stringNumber: string[] = readLine().split(" ");
 		phoneList[stringNumber[0]] = stringNumber[1];
 	}
 	for (let i = 0; i < n; i++) {
@@ -10,7 +10,7 @@ function main() {
 		if (stringName in phoneList) {
 			console.log(`${stringName}=${phoneList[stringName]}`);
 		} else {
-			console.log('Not found');
+			console.log("Not found");
 		}
 	}
 }

@@ -1,11 +1,10 @@
 function getDayName(dateString) {
-	let dayName;
 	const date = new Date(dateString);
 
 	const options = {
 		weekday: 'long',
 	};
-	dayName = new Intl.DateTimeFormat('en-US', options).format(date);
+	const dayName = new Intl.DateTimeFormat('en-US', options).format(date);
 	return dayName;
 }
 

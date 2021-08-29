@@ -1,11 +1,11 @@
 // data Types
 function main() {
-	var i = 4;
-	var d = 4.0;
-	var s = 'HackerRank ';
+	const i = 4;
+	const d = 4.0;
+	const s = "HackerRank ";
 	const int = Number(readLine()) || 10;
 	const double = Number(readLine()) || 10.5;
-	const str = readLine() || 'Hello';
+	const str = readLine() || "Hello";
 
 	const sumFl = d + double;
 	console.log(i + int);

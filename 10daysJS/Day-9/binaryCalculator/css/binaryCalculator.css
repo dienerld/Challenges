@@ -1,10 +1,11 @@
 body {
 	width: 33%;
+	background-color: rgb(27, 26, 26);
 }
 #res {
 	background-color: lightgray;
 	height: 48px;
-	border: solid;
+	border: solid rgb(87, 87, 87);
 }
 #btns {
 	width: 25%;

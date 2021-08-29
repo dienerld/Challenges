@@ -1,7 +1,7 @@
 function modifyArray(nums) {
 	nums = nums.map(element => {
 		if (element % 2 == 0) return element * 2;
-		else return element * 3;
+		return element * 3;
 	});
 	return nums;
 }

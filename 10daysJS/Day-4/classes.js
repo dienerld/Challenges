@@ -5,12 +5,12 @@ class Polygon {
 
 	perimeter() {
 		let perimeter = 0;
-		this.vecLengths.forEach(element => {
+		this.vecLengths.forEach((element) => {
 			perimeter += element;
 		});
 		return perimeter;
 	}
 }
 
-let triangle = new Polygon([4, 5, 2]);
+const triangle = new Polygon([4, 5, 2]);
 console.log(triangle.perimeter());

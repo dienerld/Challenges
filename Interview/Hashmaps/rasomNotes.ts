@@ -18,6 +18,6 @@ function checkMagazine(magazine: string[], note: string[]): void {
 }
 
 checkMagazine(
-	['diener', 'lorenco', 'Dornelas'],
-	['diener', 'lorenco', 'Dornelas']
+	['diener', 'lourenco', 'Dornelas'],
+	['diener', 'lourenco', 'Dornelas']
 );

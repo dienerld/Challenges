@@ -1,6 +1,6 @@
 function hourglassSum(arr: number[][]): number {
 	const maxArray = 6;
-	let arrayResult: number[] = [];
+	const arrayResult: number[] = [];
 	let sum: number = 0;
 
 	for (let line = 1; line < maxArray - 1; line++) {
@@ -17,12 +17,12 @@ function hourglassSum(arr: number[][]): number {
 		}
 	}
 	let sumMax: number = arrayResult[0];
-	arrayResult.forEach(index => (index > sumMax ? (sumMax = index) : index));
+	arrayResult.forEach((index) => (index > sumMax ? (sumMax = index) : index));
 	return sumMax;
 }
 
 function initMatriz(): number[][] {
-	let matriz: number[][] = [[], []];
+	const matriz: number[][] = [[], []];
 	for (let i = 0; i < 6; i++) {
 		for (let j = 0; j < 6; j++) {
 			if (!matriz[i]) {

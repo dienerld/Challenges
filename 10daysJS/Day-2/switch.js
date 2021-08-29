@@ -1,4 +1,4 @@
-//Switch
+// Switch
 
 function getLetter(s) {
 	let letter;

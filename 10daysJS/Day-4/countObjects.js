@@ -1,7 +1,7 @@
 function getCount(objects) {
 	let count = 0;
 
-	objects.forEach(element => {
+	objects.forEach((element) => {
 		if (element.x === element.y) {
 			count++;
 		}
@@ -11,7 +11,7 @@ function getCount(objects) {
 
 function main() {
 	const n = +readLine();
-	let objects = [];
+	const objects = [];
 
 	for (let i = 0; i < n; i++) {
 		const [a, b] = readLine().split(' ');

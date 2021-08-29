@@ -1,9 +1,9 @@
 function sides(literals, ...expressions) {
-	let A = expressions[0];
-	let P = expressions[1];
+	const A = expressions[0];
+	const P = expressions[1];
 
-	let s1 = (P + Math.sqrt(Math.pow(P, 2) - 16 * A)) / 4;
-	let s2 = (P - Math.sqrt(Math.pow(P, 2) - 16 * A)) / 4;
+	let s1 = (P + Math.sqrt(P ** 2) - 16 * A) / 4;
+	let s2 = (P - Math.sqrt(P ** 2) - 16 * A) / 4;
 	[s1, s2] = [s1, s2].sort();
 	return [s1, s2];
 }

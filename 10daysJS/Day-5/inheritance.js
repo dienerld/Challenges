@@ -1,5 +1,3 @@
-'use strict';
-
 class Rectangle {
 	constructor(w, h) {
 		this.w = w;
@@ -7,7 +5,7 @@ class Rectangle {
 	}
 }
 
-Rectangle.prototype.area = function () {
+Rectangle.prototype.area = () => {
 	return this.w * this.h;
 };
 
