@@ -13,7 +13,7 @@
 		"ecmaVersion": 2021,
 		"sourceType": "module"
 	},
-	"plugins": ["@typescript-eslint", "plugin:prettier/recommended"],
+	"plugins": ["@typescript-eslint", "prettier"],
 	"rules": {
 		"max-classes-per-file": "off",
 		"no-console": "off",
