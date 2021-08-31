@@ -1,4 +1,6 @@
-// loops
+/*
+ * Day 5: Loops
+ */
 function multiplyLoop(n: number): void {
 	const iterations: number = 10;
 	let i: number = 1;

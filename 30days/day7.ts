@@ -1,6 +1,9 @@
+/*
+ * Day 7: Arrayss
+ */
 function arrInvert(arr: number[]) {
 	arr.reverse();
-	const strArr = arr.join(" ");
+	const strArr = arr.join(' ');
 	console.log(strArr);
 }
 

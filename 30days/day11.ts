@@ -1,3 +1,7 @@
+/*
+ * Day 11: 2D Arrays
+ */
+
 function hourglassSum(arr: number[][]): number {
 	const maxArray = 6;
 	const arrayResult: number[] = [];

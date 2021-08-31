@@ -1,4 +1,6 @@
-// Abstract Classes
+/*
+ * Day 13: Abstract Classes
+ */
 abstract class Book {
 	title: string;
 
@@ -7,7 +9,7 @@ abstract class Book {
 	constructor(title: string, author: string) {
 		if (this.constructor === Book) {
 			throw new TypeError(
-				"Do not attempt to directly instantiate an abstract class."
+				'Do not attempt to directly instantiate an abstract class.'
 			);
 		} else {
 			this.title = title;
@@ -35,4 +37,4 @@ class MyBook extends Book {
 	}
 }
 
-new MyBook("Diener", "Diener", 10).display();
+new MyBook('Clean Code', 'Robert Cecil Martin', 40).display();

@@ -1,3 +1,7 @@
+/*
+ * Day 12: Inheritance
+ */
+
 class Person {
 	firstName: string;
 
@@ -40,27 +44,27 @@ class Student extends Person {
 			}) / this.arrScores.length;
 
 		if (avg >= 90) {
-			return "O";
+			return 'O';
 		}
 		if (avg >= 80) {
-			return "E";
+			return 'E';
 		}
 		if (avg >= 70) {
-			return "A";
+			return 'A';
 		}
 		if (avg >= 55) {
-			return "P";
+			return 'P';
 		}
 		if (avg >= 40) {
-			return "D";
+			return 'D';
 		}
-		return "T";
+		return 'T';
 	}
 }
 
 const s = new Student(
-	"Diener",
-	"Dornelas",
+	'Diener',
+	'Dornelas',
 	13467236,
 	[41, 42, 43, 44, 45, 46, 48]
 );

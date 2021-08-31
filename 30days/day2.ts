@@ -1,4 +1,6 @@
-// operators
+/*
+ * Day 2: Operators
+ */
 
 function solve(
 	meal_cost: number,

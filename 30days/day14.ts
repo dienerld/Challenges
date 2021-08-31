@@ -1,3 +1,6 @@
+/*
+ * Day 14: Scope
+ */
 function main() {
 	const n = parseInt(readLine());
 	const elements = readLine().split(' ');

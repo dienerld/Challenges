@@ -1,4 +1,6 @@
-// conditional Statements
+/*
+ *Day 3: Intro to Conditional Statements
+ */
 const weirdOrNot = (number: number) => {
 	if (number % 2 != 0) console.log('Weird');
 	else if (number >= 2 && number <= 5) console.log('Not Weird');

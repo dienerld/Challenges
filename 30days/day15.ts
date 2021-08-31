@@ -1,3 +1,7 @@
+/*
+ * Day 15: Linked List
+ */
+
 class Nodes {
 	data: number;
 	next: any;
