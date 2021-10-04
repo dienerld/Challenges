@@ -1,5 +1,5 @@
 /*
- * DDay 6: Let's Review
+ * Day 6: Let's Review
  */
 function main() {
 	const T: number = parseInt(readLine());
