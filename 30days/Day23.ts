@@ -43,7 +43,6 @@ class Tree1 {
 		} else {
 			level += 1;
 			if (root.right) {
-				// level += 1;
 				this.insert(root.right, data, level);
 			} else {
 				root.right = new node1(data, level);
