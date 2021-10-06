@@ -53,23 +53,6 @@ class Tree1 {
 		return this.root;
 	};
 
-	// Start of function getHeight
-	getHeight = (root: node1) => {
-		let rightRight = 0,
-			leftLeft = 0;
-		let aux_root = root;
-		while (aux_root !== null) {
-			rightRight += 1;
-			aux_root = aux_root.right;
-		}
-		aux_root = root.left;
-		while (aux_root !== null) {
-			leftLeft += 1;
-			aux_root = aux_root.left;
-		}
-		return leftLeft > rightRight ? leftLeft : rightRight;
-	};
-
 	getTree(root: node1) {
 		if (!root) return;
 		else {
