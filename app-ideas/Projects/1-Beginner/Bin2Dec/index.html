@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="./script.js" async defer></script>
+		<link rel="stylesheet" href="./style.css" />
+		<title>Bin2Dec</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Conversor de Binarios</h1>
+			<div class="display">
+				<span class="input"></span>
+			</div>
+			<div class="display">
+				<span class="output"></span>
+			</div>
+
+			<div class="buttons">
+				<button class="button binary-zero" onclick="addNumber(0)">O</button>
+				<button class="button binary-one" onclick="addNumber(1)">1</button>
+				<button class="button convert" onclick="convert()">Convert</button>
+				<button class="button reset" onclick="reset()">Clear</button>
+			</div>
+		</div>
+	</body>
+</html>
