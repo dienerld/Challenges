@@ -9,8 +9,8 @@ function main() {
 		const string: string = readLine();
 		const lengthString = string.length;
 		for (let i = 0; i < lengthString; i++) {
-			if (i % 2) stringPar += string[i];
-			else stringImpar += string[i];
+			if (i % 2) stringImpar += string[i];
+			else stringPar  += string[i];
 		}
 		console.log(`${stringImpar} ${stringPar}`);
 	}

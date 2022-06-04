@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./styles.css" />
+		<script src="./script.js"></script>
+	</head>
+	<body>
+		<div class="title">
+			<h1>Calculadora</h1>
+		</div>
+
+		<div class="container">
+			<div class="display"></div>
+
+			<div class="keyboard">
+				<div>
+					<button class="number" onclick="clearDisplay(1)">C</button>
+					<button class="number" onclick="clearDisplay(2)">AC</button>
+					<button class="number" onclick="switchSignal()">+ / -</button>
+					<button class="number" onclick="percent()">%</button>
+				</div>
+				<div>
+					<button class="number" onclick="insertDisplay(7)">7</button>
+					<button class="number" onclick="insertDisplay(8)">8</button>
+					<button class="number" onclick="insertDisplay(9)">9</button>
+					<button class="number" onclick="insertDisplay()">/</button>
+				</div>
+				<div>
+					<button class="number" onclick="insertDisplay(4)">4</button>
+					<button class="number" onclick="insertDisplay(5)">5</button>
+					<button class="number" onclick="insertDisplay(6)">6</button>
+					<button class="number" onclick="multiply()">*</button>
+				</div>
+				<div>
+					<button class="number" onclick="insertDisplay(1)">1</button>
+					<button class="number" onclick="insertDisplay(2)">2</button>
+					<button class="number" onclick="insertDisplay(3)">3</button>
+					<button class="number" onclick="subt()">-</button>
+				</div>
+				<div>
+					<button class="number" onclick="insertDisplay(0)">0</button>
+					<button class="number" onclick="insertDisplay()">.</button>
+					<button class="number" onclick="showDisplay()">=</button>
+					<button class="number" onclick="sum()">+</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
