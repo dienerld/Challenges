@@ -1,7 +1,7 @@
 # import re
 
 def timeConversion(s: str):
-# Write your code here
+    # Write your code here
     pattern = r":"
     log = s.split(pattern)
     set_time = log[2][2:]
@@ -16,5 +16,6 @@ def timeConversion(s: str):
         result = f"{log[0]}:{log[1]}:{log[2][:2]}"
 
     print(result)
+
 
 timeConversion("12:45:54PM")
